@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>ファシリテーターくじ引き</title>
+        <script  src="https://code.jquery.com/jquery-3.4.1.slim.min.js"  
+        integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="  crossorigin="anonymous"></script>
+        <script src="./drawing.js"></script>
+        <link rel="stylesheet" href="./drawing.css" type="text/css">
+    </head>
+    <body>
+        <h1><span>本日のファシリテーター</span></h1>
+        <div class="container">
+            <h2><span id="result"></span> さん</h2>
+            <div class="btn-border-gradient-wrap btn-border-gradient-wrap--gold">
+                <a onclick="getResult()" class="btn btn-border-gradient"><span class="btn-text-gradient--gold">スタート</span></a>
+            </div>
+        </div>
+    </body>
+</html>
