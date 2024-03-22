@@ -10,5 +10,5 @@ const results = [
 function getResult() {
   var random = Math.floor(Math.random() * results.length);
   var result = results[random];
-  $("#result").html(result);
+  $("#result").html(result).hide().fadeIn(1000);
 }
