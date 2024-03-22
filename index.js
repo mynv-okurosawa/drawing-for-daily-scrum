@@ -10,5 +10,11 @@ const results = [
 function getResult() {
   var random = Math.floor(Math.random() * results.length);
   var result = results[random];
+  if (Math.random() < 0.3) {
+    // 30%の確率で虹色アニメーションを適用
+    $("#result").addClass("rainbow-text");
+  } else {
+    $("#result").removeClass("rainbow-text");
+  }
   $("#result").html(result).hide().fadeIn(1000);
 }

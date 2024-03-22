@@ -142,3 +142,33 @@ a.btn-border-gradient {
 
   -webkit-text-fill-color: transparent;
 }
+
+@keyframes rainbow {
+  0% {
+    background-position: 0%;
+  }
+  50% {
+    background-position: 100%;
+  }
+  100% {
+    background-position: 0%;
+  }
+}
+
+.rainbow-text {
+  background: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    lime,
+    blue,
+    indigo,
+    violet,
+    red
+  );
+  background-size: 200%;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: rainbow 2s linear infinite;
+}
