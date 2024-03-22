@@ -37,7 +37,7 @@ h1 span {
 }
 
 .container {
-  margin: 70px 0px;
+  margin: 40px 0px;
 }
 
 h2 {
@@ -171,4 +171,10 @@ a.btn-border-gradient {
   -webkit-background-clip: text;
   color: transparent;
   animation: rainbow 2s linear infinite;
+}
+
+#result-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
