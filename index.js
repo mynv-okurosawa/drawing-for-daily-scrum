@@ -5,7 +5,7 @@ const results = [
   "黒川様",
   "たぬきち",
   "天上天下唯我久保尊",
-  "うっちー",
+  "李",
 ];
 
 function getResult() {
