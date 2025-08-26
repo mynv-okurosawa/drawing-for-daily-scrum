@@ -5,6 +5,7 @@ const results = [
   "黒川様",
   "たぬきち",
   "李",
+  "みねやま",
 ];
 
 function getResult() {
@@ -23,3 +24,4 @@ function getResult() {
     $("#result").html(result).hide().fadeIn(1000);
   }
 }
+
